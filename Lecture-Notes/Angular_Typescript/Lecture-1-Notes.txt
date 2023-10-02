@@ -1,0 +1,124 @@
+Angular
+
+Learn
+Typescript
+Angular
+
+
+Software
+
+Node JS  -  https://nodejs.org/en
+Visual Studio Code 
+
+
+Version 
+
+Developer - 
+1. Beta ( joki abhi develop kree) 
+2. Stable Version - (jo version industry use ( reliable version))
+
+
+
+Node - NPM (node package manager)
+NPM - https://www.npmjs.com/
+Package - Set of class where each class define its own behavior (function)
+
+
+Example 
+
+Class Calculater 
+
+Add(int a, int b){
+return a+b;
+} 
+
+
+Sub(int a, int b)
+{
+return a-b;
+}
+
+Visual Studio Code - IDE ( Integrated Development Environment) - Microsoft - Open source software
+
+
+Angular Cheat Sheet
+
+
+1 Command 1
+Installing Angular  - npm install -g @angular/cli - Globally installing angular in your system 
+
+Unitalling Angular  - npm uninstall -g angular-cli @angular/cli - Globally installing angular in your system 
+
+
+-g - Globally in your computer
+
+Command - 2
+
+ng - Angular
+
+Project creation
+ng new Demo1
+
+
+node_modules
+1. The node_modules folder is a directory commonly found in Node.js projects, and it contains all the dependencies (third-party libraries and modules) that your Node.js project or application relies on. 
+
+
+Command 3 
+ng build
+
+command 
+ng serve --open ( ng serve will run the application automatically) 
+ng serve  (manually you have to run the localhost:4200
+
+ng serve --open --port 4300
+Versionrl in browser
+
+
+ng version
+
+Example
+Angular CLI: 16.2.4
+Node: 18.18.0
+Package Manager: npm 9.8.1
+OS: win32 x64
+
+Angular: 16.2.7
+... animations, common, compiler, compiler-cli, core, forms
+... platform-browser, platform-browser-dynamic, router
+
+Package                         Version
+---------------------------------------------------------
+@angular-devkit/architect       0.1602.4
+@angular-devkit/build-angular   16.2.4
+@angular-devkit/core            16.2.4
+@angular-devkit/schematics      16.2.4
+@angular/cli                    16.2.4
+@schematics/angular             16.2.4
+rxjs                            7.8.1
+typescript                      5.1.6
+zone.js                         0.13.3
+
+
+___________________
+Typescript
+
+https://www.w3schools.com/typescript/typescript_classes.php
+Install
+npm install typescript --save-dev 
+or
+npm install -g typescript 
+
+Install Typescript
+npx tsc
+Initialize Type script
+npx tsc --init
+
+Compile Typescript to Javascript file
+tsc demo1.ts - COmpile the typescript file
+
+Run COmmand
+node demo2.js - RUn commnd to print the first name and last of person object
+
+
+
